@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   <PreferenceCategory android:title="Tally Card">
+     <ListPreference
+     android:title="Game Type"
+     android:summary="Set your game type and automatic point completion rules." 
+     android:key="scoring"
+     android:defaultValue="1"
+     android:entries="@array/scoring_types"
+     android:entryValues="@array/scoring_values" />
+    <EditTextPreference
+     android:title="Limit"
+     android:summary="Set the Limit value. Default is 64 points."
+     android:defaultValue="64"
+     android:key="limitValue"
+     android:inputType="number"/>
+     <PreferenceScreen
+     android:title="Players"
+     android:summary="Manage your player names.">
+       <PreferenceCategory android:title="Default Names">
+       <EditTextPreference
+       android:title="Player 1"
+       android:summary="Default player 1 name."
+       android:defaultValue="Player1"
+       android:key="player1"
+       android:maxLength="8" />
+       <EditTextPreference
+       android:title="Player 2"
+       android:summary="Default player 3 name."
+       android:defaultValue="Player2"       
+       android:key="player2"
+       android:maxLength="8" />
+       <EditTextPreference
+       android:title="Player 3"
+       android:summary="Default player 3 name."
+       android:defaultValue="Player3"       
+       android:key="player3"
+       android:maxLength="8" />
+       <EditTextPreference
+       android:title="Player 4"
+       android:summary="Default player 4 name."
+       android:defaultValue="Player4"       
+       android:key="player4"
+       android:maxLength="8" />
+     </PreferenceCategory>
+     </PreferenceScreen>
+   </PreferenceCategory>
+   <PreferenceCategory android:title="Miscellaneous">
+     <Preference
+      android:title="About"
+      android:summary="About this program."
+      android:key="about" />
+   </PreferenceCategory>
+</PreferenceScreen>

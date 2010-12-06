@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/undo" android:icon="@android:drawable/ic_menu_revert" android:title="@string/undo_row" />
+  <item android:id="@+id/new_page" android:icon="@drawable/ic_menu_compose" android:title="@string/new_page" />
+  <item android:id="@+id/new_game" android:icon="@android:drawable/ic_menu_add" android:title="@string/new_game" />
+  <item android:id="@+id/settings" android:icon="@android:drawable/ic_menu_preferences" android:title="@string/settings" />
+</menu>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/my_table" android:layout_width="wrap_content" android:layout_height="240px" android:shrinkColumns="*" android:stretchColumns="*" android:background="@color/black">
+  <TableRow android:id="@+id/row_4_0">
+    <EditText android:id="@+id/player1_name" android:text="Player1" android:textColor="@color/black" android:background="@color/light_gray" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:layout_height="wrap_content" android:minWidth="70dp" android:maxWidth="80dp"  android:maxLength="8" /> 
+    <EditText android:id="@+id/player2_name" android:text="Player2" android:textColor="@color/black" android:background="@color/light_gray" android:gravity="center" android:layout_marginBottom="1dp" android:layout_height="wrap_content" android:minWidth="70dp" android:maxWidth="80dp" android:maxLength="8" />
+    <EditText android:id="@+id/player3_name" android:text="Player3" android:textColor="@color/black" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:layout_height="wrap_content" android:minWidth="70dp" android:maxWidth="80dp" android:maxLength="8" />
+    <EditText android:id="@+id/player4_name" android:text="Player4" android:textColor="@color/black" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:layout_height="wrap_content" android:minWidth="70dp" android:maxWidth="80dp" android:maxLength="8" />
+  </TableRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_1">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_1_1" android:background="@color/white" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_1_2" android:background="@color/white" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_1_3" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_1_4" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+  </hongo.mahjongtally.MahjongRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_2">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_2_1" android:background="@color/light_gray" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_2_2" android:background="@color/light_gray" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_2_3" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_2_4" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+</hongo.mahjongtally.MahjongRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_3">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_3_1" android:background="@color/white" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_3_2" android:background="@color/white" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_3_3" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_3_4" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+  </hongo.mahjongtally.MahjongRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_4">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_4_1" android:background="@color/light_gray" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_4_2" android:background="@color/light_gray" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_4_3" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_4_4" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+  </hongo.mahjongtally.MahjongRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_5">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_5_1" android:background="@color/white" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_5_2" android:background="@color/white" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_5_3" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_5_4" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+  </hongo.mahjongtally.MahjongRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_6">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_6_1" android:background="@color/light_gray" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_6_2" android:background="@color/light_gray" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_6_3" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_6_4" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+  </hongo.mahjongtally.MahjongRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_7">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_7_1" android:background="@color/white" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_7_2" android:background="@color/white" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_7_3" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_7_4" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+  </hongo.mahjongtally.MahjongRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_8">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_8_1" android:background="@color/light_gray" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_8_2" android:background="@color/light_gray" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_8_3" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_8_4" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+  </hongo.mahjongtally.MahjongRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_9">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_9_1" android:background="@color/white" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_9_2" android:background="@color/white" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_9_3" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_9_4" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+  </hongo.mahjongtally.MahjongRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_10">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_10_1" android:background="@color/light_gray" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_10_2" android:background="@color/light_gray" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_10_3" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_10_4" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+  </hongo.mahjongtally.MahjongRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_11">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_11_1" android:background="@color/white" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_11_2" android:background="@color/white" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_11_3" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_11_4" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+  </hongo.mahjongtally.MahjongRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_12">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_12_1" android:background="@color/light_gray" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_12_2" android:background="@color/light_gray" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_12_3" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_12_4" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+  </hongo.mahjongtally.MahjongRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_13">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_13_1" android:background="@color/white" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_13_2" android:background="@color/white" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_13_3" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_13_4" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+  </hongo.mahjongtally.MahjongRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_14">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_14_1" android:background="@color/light_gray" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_14_2" android:background="@color/light_gray" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_14_3" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_14_4" android:background="@color/light_gray" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+  </hongo.mahjongtally.MahjongRow>
+  <hongo.mahjongtally.MahjongRow android:id="@+id/row_4_15">
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_15_1" android:background="@color/white" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_15_2" android:background="@color/white" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:editable="false" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_15_3" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+    <hongo.mahjongtally.MahjongCell android:id="@+id/col_4_15_4" android:background="@color/white" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:editable="false" android:textColor="@color/black" />
+  </hongo.mahjongtally.MahjongRow>
+  <TableRow android:id="@+id/score_row">
+    <TextView android:id="@+id/player1_score" android:background="@color/highlight" android:gravity="center" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:textColor="@color/black" android:height="25dp" android:focusable="true" android:clickable="true" android:editable="false" android:textSize="18sp" />
+    <TextView android:id="@+id/player2_score" android:background="@color/highlight" android:gravity="center" android:layout_marginBottom="1dp" android:textColor="@color/black" android:height="25dp" android:focusable="true" android:clickable="true" android:editable="false" android:textSize="18sp" />
+    <TextView android:id="@+id/player3_score" android:background="@color/highlight" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:textColor="@color/black" android:height="25dp" android:focusable="true" android:clickable="true" android:editable="false" android:textSize="18sp" />
+    <TextView android:id="@+id/player4_score" android:background="@color/highlight" android:gravity="center" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:textColor="@color/black" android:height="25dp" android:focusable="true" android:clickable="true" android:editable="false" android:textSize="18sp" />
+  </TableRow>
+</TableLayout>

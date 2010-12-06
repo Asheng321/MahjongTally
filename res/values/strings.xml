@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mahjong Tally</string>
+    <string name="version_number">1.0.0</string>
+    <string name="new_game">New Game</string>
+    <string name="new_page">New Page</string>
+    <string name="quit">Quit</string>
+    <string name="settings">Settings</string>
+    <string name="undo_row">Undo Row</string>
+    <string name="about">About</string>
+    <string name="players">Players</string>
+    <string-array name="scoring_types">
+      <item>Hong Kong Old</item>
+      <item>3-Player Kor/Jap</item>
+      <item>4-Player Manual</item>
+      <item>3-Player Manual</item>
+    </string-array>
+    <string-array name="scoring_values">
+      <item>1</item>
+      <item>2</item>
+      <item>0</item>
+      <item>4</item>   
+    </string-array>    
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#D0D0D0</color>
+    <color name="highlight">#FFFF99</color>
+</resources>
